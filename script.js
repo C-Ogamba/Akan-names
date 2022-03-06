@@ -33,3 +33,32 @@ const femaleAkanNames = [
   "Afua",
   "Ama",
 ];
+
+button.addEventListener("click", function (x) {
+  x.preventDefault();
+
+  // console.log(maleAkanNames[day]);
+  generateNames();
+});
+
+// generate names
+const generateNames = () => {
+  let userDateInput = document.querySelector("#date").value;
+  let weekDay = new Date(userDateInput);
+  let day = weekDay.getDay();
+
+  // console.log(genderChoice);
+
+  for (let gender of genderChoice) {
+    // console.log(gender.value);
+
+    let selectedGender = gender.value;
+    if (selectedGender === "male") {
+      showName.innerText = `Your Akan name is ${maleAkanNames[day]}`;
+      // console.log(`Your Akan name is ${maleAkanNames[day]}`);
+    } else if (selectedGender === "female") {
+      showName.innerText = `Your Akan name is ${femaleAkanNames[day]}`;
+      // console.log(`Your Akan name is ${femaleAkanNames[day]}`);
+    }
+  }
+};
