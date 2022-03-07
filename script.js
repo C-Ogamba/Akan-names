@@ -1,8 +1,13 @@
 "use strict";
 
-const button = document.querySelector("#btn");
+const button = document.querySelector("#btn1");
 const genderChoice = document.querySelectorAll("#gender");
 const showName = document.querySelector(".name");
+const overlayButton = document.querySelector("#btn");
+overlayButton.addEventListener("click", () => {
+  document.querySelector(".overlay").classList.replace("show", "hide");
+  document.querySelector(".page2").classList.replace("hide", "show");
+});
 
 const days = [
   "Sunday",
