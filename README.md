@@ -22,6 +22,12 @@ link to figma design [https://www.figma.com/file/n97qhYRBSJsEIPRaVnnbKg/Untitled
 
 * CSS - which was used to style the pages incuding the left aside navigation bar
 
+## Behaviour Driven Development
+Displays Form For Entering Date and Gender
+1. INPUT: "User's Birthdate Entered"
+2. INPUT: "User's Gender Entered"
+3. OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+
 
 ## Licence
 
