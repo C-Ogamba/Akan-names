@@ -8,6 +8,8 @@ This is a website about the Ghanaian child-naming culture.
 <p>The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were
   born.</p>
 
+##Figma
+link to figma design [https://www.figma.com/file/n97qhYRBSJsEIPRaVnnbKg/Untitled?node-id=0%3A1]
 
 ### Requirements
 
