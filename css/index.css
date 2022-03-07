@@ -101,14 +101,17 @@
 }
 input,
 select {
+  font-weight: 700;
   margin: 15px 0;
   padding: 10px 10px;
   width: 80%;
   border-radius: 4px;
+  background-color: rgb(173, 171, 171);
 }
 label {
   padding-top: 20px;
   color: #fff;
+  font-weight: 700;
 }
 .submit-btn {
   width: 50%;
@@ -150,4 +153,23 @@ label {
   background-color: #331102;
   margin-top: 20px;
   width: 70%;
+}
+.footer {
+  position: absolute;
+  bottom: 3%;
+  /* margin-top: -40px; */
+
+  height: 5vh;
+  /* background-color: #36; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 40%;
+  /* top: 10%; */
+}
+.conclusion p {
+  color: white;
+}
+.socials {
+  margin-left: 50px;
 }
